@@ -17,7 +17,7 @@ function wpb_fp_post_type() {
 	$labels = array(
 		'name'                => esc_html_x( 'Portfolios', 'Post Type General Name', 'wpb_fp' ),
 		'singular_name'       => esc_html_x( 'Portfolio', 'Post Type Singular Name', 'wpb_fp' ),
-		'menu_name'           => esc_html__( 'Portfolio', 'wpb_fp' ),
+		'menu_name'           => esc_html__( 'Portfolio Grid', 'wpb_fp' ),
 		'parent_item_colon'   => esc_html__( 'Parent Portfolio:', 'wpb_fp' ),
 		'all_items'           => esc_html__( 'All Portfolios', 'wpb_fp' ),
 		'view_item'           => esc_html__( 'View Portfolio', 'wpb_fp' ),
@@ -48,7 +48,7 @@ function wpb_fp_post_type() {
 		'show_in_menu'        => true,
 		'show_in_nav_menus'   => true,
 		'show_in_admin_bar'   => true,
-		'menu_position'       => 75,
+		'menu_position'       => 50,
 		'menu_icon'           => 'dashicons-portfolio',
 		'can_export'          => true,
 		'has_archive'         => true,

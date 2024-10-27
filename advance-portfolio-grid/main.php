@@ -3,7 +3,7 @@
  * Plugin Name: Advance Portfolio Grid
  * Plugin URI:  https://wpbean.com/downloads/wpb-filterable-portfolio/
  * Description: Advance Portfolio Grid, a highly customizable most advance portfolio plugin for WordPress. Use this shortcode [wpb-portfolio]
- * Version:     1.07.2
+ * Version:     1.07.3
  * Author:      wpbean
  * Author URI:  https://wpbean.com/
  * Text Domain: wpb_fp
@@ -118,11 +118,11 @@ function wpb_fp_lite_plugin_activation() {
 
 function wpb_fp_lite_plugin_init(){
 	load_plugin_textdomain( 'wpb_fp', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
-  register_deactivation_hook( plugin_basename( __FILE__ ), 'wpb_fp_lite_plugin_deactivation' );
+    register_deactivation_hook( plugin_basename( __FILE__ ), 'wpb_fp_lite_plugin_deactivation' );
 	register_activation_hook( plugin_basename( __FILE__ ), 'wpb_fp_lite_plugin_activation' );
 	add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'wpb_fp_lite_plugin_actions' );
 	add_action( 'activated_plugin', 'wpb_fp_activation_redirect' );
-	add_action( 'admin_notices', 'wpb_fp_pro_discount_admin_notice' );
+	//add_action( 'admin_notices', 'wpb_fp_pro_discount_admin_notice' );
 	add_action( 'admin_init', 'wpb_fp_pro_discount_admin_notice_dismissed' );
 
 	require_once dirname( __FILE__ ) . '/inc/wpb_scripts.php';
@@ -133,10 +133,15 @@ function wpb_fp_lite_plugin_init(){
 	require_once dirname( __FILE__ ) . '/admin/wpb-class.settings-api.php';
 	require_once dirname( __FILE__ ) . '/admin/wpb-settings-config.php';
 	require_once dirname( __FILE__ ) . '/inc/wpb-functions.php';
-  require_once dirname( __FILE__ ) . '/inc/wpb_fp_metabox.php';
+    require_once dirname( __FILE__ ) . '/inc/wpb_fp_metabox.php';
 
-  if( defined('ELEMENTOR__FILE__') ){
-    require_once dirname( __FILE__ ) . '/inc/wpb_fp_elementor.php';
-  }
+    if( defined('ELEMENTOR__FILE__') ){
+        require_once dirname( __FILE__ ) . '/inc/wpb_fp_elementor.php';
+    }
+
+    if( is_admin() ){
+        require_once dirname( __FILE__ ) . '/inc/DiscountPage/DiscountPage.php';
+        new WPBean_Portfolio_DiscountPage();
+    }
 }
 add_action( 'plugins_loaded', 'wpb_fp_lite_plugin_init' );

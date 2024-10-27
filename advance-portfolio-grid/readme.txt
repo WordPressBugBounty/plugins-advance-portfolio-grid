@@ -3,7 +3,7 @@ Contributors: wpbean, imranwpb
 Tags: portfolio, portfolio grid, portfolio slider, portfolio gallery, Wordpress portfolio plugin
 Requires at least: 5.0
 Tested up to: 6.6.2
-Stable tag: 1.07.2
+Stable tag: 1.07.3
 Requires PHP: 7.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -267,6 +267,9 @@ Go to Portfolio -> Portfolio Settings. Here you will find the option for choosin
 
 = version 1.07.2 =
 * Tested with WooCommerce 8.3.1 and WordPress 6.4.1
+
+= version 1.07.3 =
+* Added discount page.
 
 
 == Upgrade Notice ==
