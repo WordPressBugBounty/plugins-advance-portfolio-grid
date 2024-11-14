@@ -3,7 +3,7 @@
  * Plugin Name: Advance Portfolio Grid
  * Plugin URI:  https://wpbean.com/downloads/wpb-filterable-portfolio/
  * Description: Advance Portfolio Grid, a highly customizable most advance portfolio plugin for WordPress. Use this shortcode [wpb-portfolio]
- * Version:     1.07.3
+ * Version:     1.07.4
  * Author:      wpbean
  * Author URI:  https://wpbean.com/
  * Text Domain: wpb_fp
