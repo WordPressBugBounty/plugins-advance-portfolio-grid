@@ -2,8 +2,8 @@
 Contributors: wpbean, imranwpb
 Tags: portfolio, portfolio grid, portfolio slider, portfolio gallery, Wordpress portfolio plugin
 Requires at least: 5.0
-Tested up to: 6.7
-Stable tag: 1.07.4
+Tested up to: 6.7.1
+Stable tag: 1.07.5
 Requires PHP: 7.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,8 +12,7 @@ Portfolio gallery with filtering category wordpress plugin.
 
 == Description ==
 
-This plugin will add a responsive portfolio grid or slider to your WordPress site. Highly customizable. Option for choosing a custom post type for the portfolio.
-
+Advance Portfolio Grid plugin will add a responsive portfolio grid or slider to your WordPress site. Highly customizable. Option for choosing a custom post type for the portfolio.
 
 >[Buy PRO Version](https://wpbean.com/downloads/wpb-filterable-portfolio/) | [Free Demo](http://demo1.wpbean.com/advance-portfolio-grid-pro/)  |  [Pro Demo](http://portfolio.wpbean.com/)  |  [Support](https://wpbean.com/support/)  |  [Pro Documentation](http://docs.wpbean.com/docs/wpb-filterable-portfolio/)
 
@@ -273,6 +272,9 @@ Go to Portfolio -> Portfolio Settings. Here you will find the option for choosin
 
 = version 1.07.4 =
 * Tested with WordPress 6.7
+
+= version 1.07.5 =
+* Tested with WordPress 6.7.1
 
 
 == Upgrade Notice ==
