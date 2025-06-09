@@ -2,19 +2,24 @@
 Contributors: wpbean, imranwpb
 Tags: portfolio, portfolio grid, portfolio slider, portfolio gallery, Wordpress portfolio plugin
 Requires at least: 5.0
-Tested up to: 6.7.2
-Stable tag: 1.07.5
+Tested up to: 6.8.1
+Stable tag: 1.07.6
 Requires PHP: 7.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Portfolio gallery with filtering category wordpress plugin.
+The WPB Portfolio Grid can add an appealing portfolio layout for showcasing projects or case studies and it can take your career to the next level.
 
 == Description ==
 
 Advance Portfolio Grid plugin will add a responsive portfolio grid or slider to your WordPress site. Highly customizable. Option for choosing a custom post type for the portfolio.
 
 >[Buy PRO Version](https://wpbean.com/downloads/wpb-filterable-portfolio/) | [Free Demo](http://demo1.wpbean.com/advance-portfolio-grid-pro/)  |  [Pro Demo](http://portfolio.wpbean.com/)  |  [Support](https://wpbean.com/support/)  |  [Pro Documentation](http://docs.wpbean.com/docs/wpb-filterable-portfolio/)
+
+### 👋 Need expert WordPress & WooCommerce development help?
+I’m currently available for hire — WordPress and WooCommerce development, custom features, bug fixing, speed optimization, performance tuning, SEO improvements, and more.
+With over 10 years of experience building high-quality WordPress solutions, I can help you take your website to the next level. 
+[__Contact me here →__](https://wpbean.com/web-development-services/?utm_source=WordPress&utm_medium=desc-link&utm_campaign=available-for-hire&utm_content=WPB+Accordion+Menu+Pro)
 
 ### Video Documentation:
 
@@ -275,6 +280,9 @@ Go to Portfolio -> Portfolio Settings. Here you will find the option for choosin
 
 = version 1.07.5 =
 * Tested with WordPress 6.7.1
+
+= version 1.07.6 =
+* Tested with WordPress 6.8.1
 
 
 == Upgrade Notice ==
