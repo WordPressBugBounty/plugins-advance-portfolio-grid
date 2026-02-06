@@ -1,74 +1,29 @@
 /**
  * WPBean Admin CSS
  */
-
-.wpb_wpbean_socials {
-	margin-bottom: 15px;
-	display: block!important;
-	visibility: visible!important;
-	overflow: hidden;
-}
-.wpb_wpbean_socials > a {
-    margin-right: 10px;
-    display: inline-block;
-    line-height: 19px;
-    text-decoration: none;
-    color: #fff;
-    padding: 6px 12px;
-    -webkit-font-smoothing: antialiased;
-    font-weight: bold;
-    transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-}
-.wpb_wpbean_socials > a:focus,
-.wpb_wpbean_socials > a:active {
-	outline: 0;
-	box-shadow: none;
-}
-
-.wpb_wpbean_socials > a.wpb_facebook {
-	background: #5D82D1;
-}
-.wpb_wpbean_socials > a.wpb_twitter {
-	background: #40BFF5;
-}
-.wpb_wpbean_socials > a.wpb_googleplus {
-	background: #EB5E4C;
-}
-.wpb_wpbean_socials > a.wpb_youtube {
-    background: #cc181e;
-}
-.wpb_wpbean_socials > a.wpb_facebook:hover {
-	background: rgba(93, 130, 209, 0.75);
-}
-.wpb_wpbean_socials > a.wpb_twitter:hover {
-	background: rgba(64, 191, 245, 0.75);
-}
-.wpb_wpbean_socials > a.wpb_googleplus:hover {
-	background: rgba(235, 94, 76, 0.75);
-}
-.wpb_wpbean_socials > a.wpb_youtube:hover {
-    background: rgba(204, 24, 30, 0.75);
-}
-
-
 .wpb_fp_settings_area {
     position: relative;
 }
+
 .wpb_fp_settings_content {
-    position: fixed;
-    top: 22%;
-    right: 0;
     background: #fff;
-    width: 300px;
-    padding: 0 15px 15px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: 1px solid #ebebeb;
+}
+.wpb_fp_settings_content h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.wpb_fp_settings_content ul {
+    margin-bottom: 30px;
 }
 .wpb_fp_settings_content ul li {
     font-size: 15px;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     font-weight: 600;
     -webkit-font-smoothing: antialiased;
 }
@@ -76,31 +31,34 @@
     content: "\f147";
     font-family: dashicons;
     font-size: 24px;
-    color: #EB5E4C;
+    color: #eb5e4c;
     position: relative;
     top: 7px;
     margin-right: 5px;
     -webkit-font-smoothing: antialiased;
 }
-.wpb_get_pro_btn,.wpb_get_pro_btn:hover,.wpb_get_pro_btn:focus,.wpb_get_pro_btn:active {
+.wpb_get_pro_btn,
+.wpb_get_pro_btn:hover,
+.wpb_get_pro_btn:focus,
+.wpb_get_pro_btn:active {
     outline: 0;
     box-shadow: none;
     color: #fff;
 }
 .wpb_get_pro_btn {
-    display: inline-block;
-    min-width: 200px;
-    padding: 15px 0;
-    background: #40BFF5;
+    display: inline-flex;
+    padding: 12px 20px;
+    background: #40bff5;
     color: #fff;
     text-decoration: none;
-    text-align: center;
-    margin-right: 40px;
     font-size: 15px;
-    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 6px;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
 }
 .wpb_get_pro_btn:hover {
-    background: rgba(64, 191, 245, 0.75);
+    background: #024c6b;
 }
 @media screen and (max-width: 768px) {
     .wpb_fp_settings_content {
@@ -117,7 +75,7 @@
     line-height: 25px;
 }
 .wpb_pro_add li:before {
-    background-image: url('../images/check-icon.png');
+    background-image: url("../images/check-icon.png");
     content: "";
     position: absolute;
     left: 0;
