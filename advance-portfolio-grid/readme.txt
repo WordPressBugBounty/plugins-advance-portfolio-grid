@@ -2,7 +2,7 @@
 Contributors: wpbean, imranwpb
 Tags: portfolio, portfolio grid, portfolio slider, portfolio gallery, Wordpress portfolio plugin
 Requires at least: 6.7
-Tested up to: 6.9
+Tested up to: 6.9.4
 Stable tag: 1.07.7
 Requires PHP: 7.4
 License: GPLv2 or later
