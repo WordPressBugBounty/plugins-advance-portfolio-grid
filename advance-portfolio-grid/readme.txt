@@ -1,4 +1,4 @@
-=== Advance Portfolio Grid, Slider and Gallery - Showcase Projects, Images and Videos ===
+=== Portfolio Grid - Filterable Gallery, Grid & Slider Showcase ===
 Contributors: wpbean, imranwpb
 Tags: portfolio, portfolio grid, portfolio slider, portfolio gallery, Wordpress portfolio plugin
 Requires at least: 6.7
