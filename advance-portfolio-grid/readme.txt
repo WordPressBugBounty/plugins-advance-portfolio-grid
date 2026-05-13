@@ -31,47 +31,64 @@ https://www.youtube.com/watch?v=cK4a5l1_Xds
 
 ### Plugin Features:
 
-* Responsive Portfolio Grid and slider.
-* Portfolio column settings for different screen sizes.
-* You can show your own custom post type items in the portfolio.
-* Portfolio items exclude or include.
-* Portfolio quick-view popup.
-* Portfolio image size settings.
-* Elementor support.
-* Easy Shortcode System.
-* Advance setting panel. 
-* All modern browser support. 
-* Gutenberg compatibility.
-* Fully Translation ready, WPML, Polylang, GTranslate and all others multi-language plugin support..
+* Responsive **portfolio grid, filterable gallery, and slider showcase**.
+* Flexible **column control** for desktop, tablet, and mobile devices.
+* Display **custom post types (CPT)** in your portfolio grid or gallery.
+* Easily **include or exclude portfolio items**.
+* Built-in **portfolio quick view popup/lightbox**.
+* Customizable **image sizes and layout settings**.
+* Full **Elementor compatibility** with easy integration.
+* Simple and powerful **shortcode system**.
+* Advanced **settings panel** for full control.
+* Optimized for **speed, performance, and modern browsers**.
+* Fully compatible with the **Gutenberg block editor**.
+* **Translation ready** and works with WPML, Polylang, GTranslate, and other multilingual plugins.
 
 
 ### Pro Version Features:
 
-* Portfolio filterable grid and slider.
-* Masonry support for the portfolio grid.
-* Portfolio category filtering system with awesome effects.
-* Portfolio category Ajax filtering.
-* Ajax load more button for portfolio.
-* Pagination for portfolio grid.
-* Video support, both on the grid and quick view popup.
-* The image gallery for each portfolio, gallery image slider in quick view popup.
-* You can show your own custom post type and taxonomy for the portfolio grid and slider.
-* WooCommerce support added for showing the products as the portfolio.
-* Elementor and Visual composer support.
-* Gutenberg compatibility.
-* Portfolio column settings for different screen size.
-* 7 different portfolio skins for showing portfolios in a different style.
-* 4 different styles for portfolio filter.
-* 6 different styles for portfolio quick view.
-* External link for the portfolio.
-* Work with any theme.
-* 24/7 Dedicated Support.
-*   [Pro Version Demo &raquo;](http://portfolio.wpbean.com/ "Pro Version Demo")
-*   [Upgrade to the Pro Version Now!&raquo;](https://wpbean.com/downloads/wpb-filterable-portfolio/ "Pro Version")
+* Advanced **filterable portfolio grid, gallery, and slider showcase**.
 
+* Stylish **masonry layout support** for modern portfolio designs.
 
+* Powerful **portfolio category filtering** with smooth animations.
 
-Credit: Bootstrap, Magnific Popup, Codrops.
+* Fast **AJAX-based filtering** for better user experience.
+
+* **AJAX load more** button for seamless content loading.
+
+* Built-in **pagination options** for portfolio grid.
+
+* **Video support** in both grid and quick view popup.
+
+* Multiple **image gallery support** with slider in quick view.
+
+* Support for **custom post types and custom taxonomies**.
+
+* **WooCommerce integration** to showcase products as portfolios.
+
+* Compatible with **Elementor and WPBakery (Visual Composer)**.
+
+* Fully supports the **Gutenberg block editor**.
+
+* Responsive **column control** for all screen sizes.
+
+* Includes **7 unique portfolio skins/layout styles**.
+
+* **4 filter styles** for category navigation.
+
+* **6 quick view popup designs** for better presentation.
+
+* Option to add **external links** to portfolio items.
+
+* Works smoothly with **any WordPress theme**.
+
+* **24/7 dedicated support** for Pro users.
+
+* [View Pro Demo »](http://portfolio.wpbean.com/ "Pro Version Demo")
+
+* [Upgrade to Pro Version »](https://wpbean.com/downloads/wpb-filterable-portfolio/ "Pro Version")
+
 
 == Installation ==
 
